@@ -74,7 +74,7 @@ function App() {
             options={clothesColorOptions}
             currentOption={clothesColor}
             handleSelectOption={setClothesColor}
-          />
+            />
         </div>
       </MaxWidthWrapper>
 
@@ -86,7 +86,7 @@ function App() {
           accessory={accessory}
           skinColor={skinColor}
           clothesColor={clothesColor}
-        />
+          />
       </div>
     </main>
   );
